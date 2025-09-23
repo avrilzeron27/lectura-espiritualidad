@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi primer pagina web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <body class="bg-dark" data-bs-theme="dark"> 
+    <!-- inicio Navbar -->
+     <nav class="navbar navbar-expand-md bg-dark fixed-top"  data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="img/logo bueno.png" alt="Bootstrap" width="30" height="24">
+                Lunara
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Servicios
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Servicio 1</a></li>
+                    <li><a class="dropdown-item" href="#">Servicio 2</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Servicio 3</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Proximamente</a>
+                </li>
+            </ul>
+            <span>
+                <a href="#" class="text-decoration-none text-white">+52 55-0000-0000</a>
+            </span>
+            </div>
+        </div>
+    </nav>
+<!-- final de navbar -->
+
+    <!-- Inicio de carrusel o slider -->
+<div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/img4.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-sm-block">
+                <h5>Energia que sana</h5>
+                <p>Ayuda a transformar y equilibrar la energia para lograr bienestar.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/img2.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-sm-block">
+                <h5>Purifica,sana,renace</h5>
+                <p>Proceso de liberacion de energias negativas,sanacion interior y renovacion personal.</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/img1.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-sm-block">
+                <h5>Vibra en claridad</h5>
+                <p>Vivir con energia limpia,sin cargas,en sintonia con la luz y paz.</p>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+     </div>
+
+    <!--  Final de carrusel -->
+
+     <!-- Inicio Seccion 1 -->
+     <section class="container my-5">
+        <h2 class="text-center display-4">Sanacion espiritual y limpias:un camino hacia la armonia.</h2>
+        <p class="text-center lead text-warning-emphasis  my-4">En el mundo invisible que nos rodea, las energias fluyen contantemente. Algunas nos fortalecen, pero otras pueden cargarnos de pesadez, tristeza o confusion. La sanacion espiritual y las limpias energeticas son herramientas ancestrales que nos ayudan a devolverle equilibrio y pureza a nuestro ser.</p>
+
+        <!-- Inicio de card o tarjetas -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/img5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Limpias Energeticas.</h5>
+                <p class="card-text">Una limpia abre caminos, con huevo y hierbas para cortar envidias, mal de ojo y cargas negativas.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+            
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/img3.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Sanacion.</h5>
+                <p class="card-text">La sanacion espiritual armoniza tu interior, eleva tu vibracion y atrae paz y abundancia.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/img6.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lecturas Espirituales.</h5>
+                <p class="card-text">Para guiarte en el amor, la abundancia y la claridad personal.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+        </div>
+        </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/velas.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ritual de velas.</h5>
+                <p class="card-text">La vela se convierte en una ofrenda de luz que moviliza aquello que deseas trabajar en tu vida.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/pendulo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pendulo</h5>
+                <p class="card-text">Es como un <strong>amplificador de la intuicion;</strong> no ¨adivina¨, sino que refleja la energia y la informacion que ya esta presente en ti o en el entorno.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+            <img src="img/manos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lectura de mano</h5>
+                <p class="card-text">Animate a descubrir los <strong>secretos</strong> que guardan tus manos y abre una ventana hacia el autoconocimiento y la tranformacion.</p>
+            </div>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-secondary text-white">Mas informacion</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- Final de card o tarjetas -->
+
+
+     </section>
+     <!-- Final seccion 1 -->
+
+     <!-- Texto resaltado -->
+     <div class="container-fluid py-5" style="background-color: #877949;">
+        <div class="container text-center"> 
+            <h2 class="display-4">
+                Renueva tu energia, abre tus caminos y conecta con la sabiduria espiritual.
+            </h2>
+            <p class="lead">En nuestro espacio encontraras el poder de las <strong>limpias espirituales</strong>, el mensaje profundo del <strong>tarot</strong>, la magia de la <strong>lecturas de huevo y manos</strong>, y sanacion que brinda la <strong>naturaleza a travez de hierbas, carzos y rituales ancestrales</strong>.
+            </p>
+            <hr class="my-4">
+            <p class="lead">Cada sesion es un viaje hacia el equilibrio, donde liberamos bloqueos, cortamos energias negativas y despertamos tu luz interior. Aqui descubriras respuestas, claridad y la paz que tu alma necesita para seguir avanzando con fuerza y confianza. <strong> Tu transformacio comienza aqui:energia limpia, espiritu libre y caminos abiertos.</strong></p>
+            <div class="lead text-center">
+                <a href="#" class="btn btn-secondary btn-lg text-white">Mas informacion</a>
+            </div>
+        </div>
+
+     </div>
+     <!-- Final de Texto resaltado -->
+
+
+     <!-- Seccion 2 -->
+     <section class="container">
+        <h2 class="display-4 text-center">
+            Liberate de lo negativo y permite que la luz y la armonia regresen a tu vida 
+        </h2>
+        <p class="lead text-center text-warning-emphasis">A traves de huevos, hierbas, cuarzos y oraciones, se logra cortar con lo denso, abrir los caminos y atraer la claridad, la salud y la prosperidad que mereces. Cada limpia es personalizada, enfocada en tus necesidades y en lo que tu espiritu requiere en este momento.  
+            <strong>Liberate de lo negativo y permite que la luz y la armonia regresen a tu vida.</strong>
+        </p>
+        <!-- Acordeon y card -->
+        <div class="row">
+            <!-- Acordeon -->
+        <div class="col-12 col-md-6">
+         <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Limpia Espiritual
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                <strong>Las limpias espirituales</strong> son un poderoso ritual ancestral diseñado para <strong>eliminar energias negativas</strong>, envidias y bloqueos que se acumulan en nuestro campo energetico. A traves de elementos sagrados como el huevo, las hierbas y la intencion espiritual, logramos restaurar el equikibrio interior, abrir caminos y devolverle a tu aura la luz que necesita. <code>Despues de una limpia</code>, podras sentirte mas ligero, con la mente clara y con una energia renovada para avanzar.
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Limpia con Hierbas
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <strong>Limpias con Hierbas</strong> Las hierbas son aliadas de la sanacion desde tiempos ancestrales. Cada planta guarda una energia especial capaz de <strong>purificar, proteger y elevar la vibracion espiritual.</strong><code>Una limpia con hierbas</code> elimina cargas pesadas, calma emociones, fortalece tu energia vital y te protegue de malas intenciones. Ademas, reconecta tu ser con la naturaleza, brindandote paz interior y armonia en tu entorno.
+            </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                 Ritual Espiritual
+            </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div class="accordion-body">
+                <strong>Rituales Espirituales.</strong> Los rituales espirituales son ceremonias personalizadas que se realizan para <strong>atraer lo positivo y cortar con lo negativo.</strong> Con la ayuda de velas, hierbas, cuarzos y oraciones, estos rituales pueden abrir caminos bloqueados, atraer abundancia, dortalecer el amor propio o lazos afectivos, y brindarte una conexion mas profunda <code> con el universo</code>. Son momentos de transformacion que despiertan tu luz y te alinean con la energia que deseas manifestar en tu vida.
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <!-- Final de acordeon -->
+        <!-- Inicio de card -->
+        <div class="col-12 col-md-6">
+                <div class="card" >
+        <img src="img/img7.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Purifica, renueva y florece.</h5>
+            <p class="card-text">Conecta con tu esencia y permite que tu luz interior abra todos tus caminos.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Despidete de las malas vibras, recibe paz y prosperidad.</li>
+            <li class="list-group-item">Renueva tu espiritu, vive en armonia y equilibrio.</li>
+            <li class="list-group-item">Un nuevo inicio comienza con una limpia espiritual.</li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <!-- Final de card -->
+
+        </div>
+        <!-- Final de acordeon y card -->
+     </section>
+     <!-- Final de seccion 2 -->
+
+     <!-- Inicio de footer -->
+      <div class="container"> 
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+            <div class="col-md-4 d-flex align-items-center"> 
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#6DBCED" class="bi bi-bootstrap" viewBox="0 0 16 16">
+  <path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
+  <path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3z"/>
+</svg>
+                </a> 
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Company, Inc</span> 
+            </div> 
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex"> 
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#A002AD" class="bi bi-instagram" viewBox="0 0 16 16">
+  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+</svg>
+                    </a>
+                </li> 
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#3555F2" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+</svg>
+                    </a>
+                </li> 
+
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://www.tiktok.com" target="_blank" aria-label="tiktok">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#B3001C" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg>
+                    </a>
+                </li> 
+            </ul> 
+        </footer> 
+    </div>
+    <!-- Final de Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
